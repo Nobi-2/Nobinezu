@@ -80,7 +80,7 @@ Comment out/delete /* , */ the code form your Core.js line 224 and 332 in your o
 
 
 
-.3 🛡️ Windows Cmd & Vs 🛡️
+.3 🖤 Windows Cmd & Vs 🖤
 
 * [`Download ffmpeg`](https://ffmpeg.org/download.html#build-windows) and set path
 * [`Download wget`](https://eternallybored.org/misc/wget/releases/) and set path
