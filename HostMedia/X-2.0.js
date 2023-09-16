@@ -1,4 +1,4 @@
 
 {
-	"name": "Xlicon Bot Multi Device "
+	"name": "ɳσႦι🖤 Bot Multi Device "
 }
