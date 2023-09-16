@@ -22,10 +22,10 @@ global.OwnerNumber = ["917000562148","919174493135"];   //If you want singal num
 global.ownertag = ["917000562148"];
 global.OwnerName = "ɳσႦιƚα 🐈‍⬛";
 global.BotName = "ɳσႦι🖤-MD";
-global.packname = "X-2.0 Bot";                             //Do not change.
-global.author = "By: Slasher";                               //Do not change.
-global.BotSourceCode = "https://github.com/ahil15/Xlicon-v2"; //Do not change.
-global.SupportGroupLink = "https://chat.whatsapp.com/EjsQvJNcFGVCSfaBEIxZm2"; 
+global.packname = "ɳσႦιƚα 🐈‍⬛";                             //Do not change.
+global.author = "By: ɳσႦι🖤";                               //Do not change.
+global.BotSourceCode = "https://github.com/nobi-2"; //Do not change.
+global.SupportGroupLink = "https://chat.whatsapp.com/FnMfdfQADzZKrT0wQCSjGK"; 
 
 
 //
