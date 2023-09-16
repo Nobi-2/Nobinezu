@@ -20,8 +20,8 @@ global.statusseen = true;                 //This is the new variable for control
 global.Owner = ["917000562148","9174493135"];         //If you want singal number so global.Owner = ['8801928502256'] Change into your number.
 global.OwnerNumber = ["917000562148","919174493135"];   //If you want singal number so global.Owner = ['8801928502256'] Change into your number.
 global.ownertag = ["917000562148"];
-global.OwnerName = "Slasher";
-global.BotName = "XLICON-MD";
+global.OwnerName = "ɳσႦιƚα 🐈‍⬛";
+global.BotName = "ɳσႦι🖤-MD";
 global.packname = "X-2.0 Bot";                             //Do not change.
 global.author = "By: Slasher";                               //Do not change.
 global.BotSourceCode = "https://github.com/ahil15/Xlicon-v2"; //Do not change.
@@ -39,10 +39,10 @@ global.openAiAPI = "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";
 
 //
 global.location = "Dhaka, Bangladesh";                   
-global.reactmoji = "✅";
-global.themeemoji = "💖";
+global.reactmoji = "🖤";
+global.themeemoji = "🐈‍⬛";
 global.vidmenu = { url: 'https://tenor.com/view/jujutsu-kaisen0-yuta-okkotsu-gif-26767662' };
-global.websitex = "https://github.com/ahil15";
+global.websitex = "https://github.com/nobi-2";
 global.lolhuman = "KaysaS";
 
 
