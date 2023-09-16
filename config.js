@@ -41,7 +41,7 @@ global.openAiAPI = "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";
 global.location = "Dhaka, Bangladesh";                   
 global.reactmoji = "🖤";
 global.themeemoji = "🐈‍⬛";
-global.vidmenu = { url: 'https://tenor.com/view/jujutsu-kaisen0-yuta-okkotsu-gif-26767662' };
+global.vidmenu = { url: 'https://tenor.com/en-IN/view/jujutsu-kaisen0-gif-25676001' };
 global.websitex = "https://github.com/nobi-2";
 global.lolhuman = "KaysaS";
 
