@@ -18,7 +18,7 @@ global.statusseen = true;                 //This is the new variable for control
 
 //
 global.Owner = ["917000562148","9174493135"];         //If you want singal number so global.Owner = ['8801928502256'] Change into your number.
-global.OwnerNumber = ["917000562148","919174493135"];   //If you want singal number so global.Owner = ['8801928502256'] Change into your number.
+global.OwnerNumber = ["917000562148","919174493135"];   //If you want singal number so global.Owner = ['917000562148'] Change into your number.
 global.ownertag = ["917000562148"];
 global.OwnerName = "ɳσႦιƚα 🐈‍⬛";
 global.BotName = "ɳσႦι🖤-MD";
@@ -34,7 +34,7 @@ global.sessionName = "session";                          //Do not change.
 
 //
 global.prefa = [","];                                    //Default prefix here.
-global.openAiAPI = "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";
+global.openAiAPI = "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";
 
 
 //
