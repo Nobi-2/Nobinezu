@@ -3701,7 +3701,7 @@ break;
 case 'groupevent':
 case 'group-event':
 
-A17.sendMessage(from, { react: { text: '❤', key: m.key }});
+A17.sendMessage(from, { react: { text: '🖤', key: m.key }});
 if (isBan) return reply(mess.banned);	 			
 if (isBanChat) return reply(mess.bangc);
 if (!isBotAdmins) return reply(mess.botadmin);
@@ -5367,11 +5367,11 @@ break;
 // let member = participants.map(u => u.id)
 // let orang = member[Math.floor(Math.random() * member.length)]
 // let jodoh = member[Math.floor(Math.random() * member.length)]
-// let jawab = `@${orang.split('@')[0]} ❤️ @${jodoh.split('@')[0]}
-// Ohh i see 👀💖...`
+// let jawab = `@${orang.split('@')[0]} 🖤 @${jodoh.split('@')[0]}
+// Ohh i see 👀🐈‍⬛...`
 // let menst = [orang, jodoh]
 // let buttons = [
-// { buttonId: '❤️', buttonText: { displayText: 'Congratulations ❤️' }, type: 1 }
+// { buttonId: '🖤', buttonText: { displayText: 'Congratulations 🖤' }, type: 1 }
 // ]
 // await A17.sendButtonText(m.chat, buttons, jawab, A17.user.name, m, {mentions: menst})
 // }
@@ -5387,10 +5387,10 @@ break;
 // let me = m.sender
 // let jodoh = member[Math.floor(Math.random() * member.length)]
 // let jawab = `👫 Soulmates
-// @${me.split('@')[0]} ❤️ @${jodoh.split('@')[0]}`
+// @${me.split('@')[0]} 🖤 @${jodoh.split('@')[0]}`
 // let ments = [me, jodoh]
 // let buttons = [
-// { buttonId: '❤️', buttonText: { displayText: 'Be my Soulmate ❤️' }, type: 1 }
+// { buttonId: '🖤', buttonText: { displayText: 'Be my Soulmate 🖤' }, type: 1 }
 // ]
 // await A17.sendButtonText(m.chat, buttons, jawab, A17.user.name, m, {mentions: ments})
 // }
@@ -5408,7 +5408,7 @@ case 'soulmate':  {
   let me = m.sender;
   let jodoh = member[Math.floor(Math.random() * member.length)];
 
-  let message = `👫 Be me Soulmate...\n@${me.split('@')[0]} ❤️ @${jodoh.split('@')[0]}`;
+  let message = `👫 Be me Soulmate...\n@${me.split('@')[0]} 🖤 @${jodoh.split('@')[0]}`;
   A17.sendMessage(m.chat, { text: message, mentions: [me, jodoh] }, { quoted: m });
 }
 break;
@@ -5417,9 +5417,9 @@ break;
 case 'handsomecheck':
   if (isBan) return reply(mess.banned);
   if (isBanChat) return reply(mess.bangc);
-A17.sendMessage(from, { react: { text: "😺" , key: m.key }})
-      if (!text) return reply(`Tag Someone, Example : ${prefix + command} @⁨Nᴏᴛ Sʟᴀꜱʜᴇʀ'ꜱ ᵃʳᶜ⁩`)
-        const gan = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
+A17.sendMessage(from, { react: { text: "🐈‍⬛" , key: m.key }})
+      if (!text) return reply(`Tag Someone, Example : ${prefix + command} @⁨ɳσႦιƚα ⁩`)
+        const gan = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100','100000+']
         const teng = gan[Math.floor(Math.random() * gan.length)]
 A17.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${teng}%*` }, { quoted: m })
         break;
@@ -5428,10 +5428,10 @@ A17.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${teng}%*`
 case 'beautifulcheck':
   if (isBan) return reply(mess.banned);
   if (isBanChat) return reply(mess.bangc);
-  A17.sendMessage(from, { react: { text: "😺" , key: m.key }})
+  A17.sendMessage(from, { react: { text: "🐈‍⬛" , key: m.key }})
   
-      if (!text) return reply(`Tag Someone, Example : ${prefix + command} @⁨Nᴏᴛ Sʟᴀꜱʜᴇʀ'ꜱ ᵃʳᶜ⁩`)
-        const can = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
+      if (!text) return reply(`Tag Someone, Example : ${prefix + command} @⁨ɳσႦιƚα⁩`)
+        const can = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100','100000+']
         const tik = can[Math.floor(Math.random() * can.length)]
 A17.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${tik}%*` }, { quoted: m })
         break;
@@ -5451,7 +5451,7 @@ case 'greatcheck':
                       if (isBanChat) return reply(mess.bangc);
   A17.sendMessage(from, { react: { text: "😺" , key: m.key }})
   
-      if (!text) return reply(`Tag Someone, Example : ${prefix + command} @⁨Nᴏᴛ Sʟᴀꜱʜᴇʀ'ꜱ ᵃʳᶜ⁩`)
+      if (!text) return reply(`Tag Someone, Example : ${prefix + command} @⁨ɳσႦιƚα⁩`)
         const sangeh = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
         const sange = sangeh[Math.floor(Math.random() * sangeh.length)]
 A17.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${sange}%*` }, { quoted: m })
@@ -5463,7 +5463,7 @@ case 'charactercheck':
   if (isBanChat) return reply(mess.bangc);
 A17.sendMessage(from, { react: { text: "🤧" , key: m.key }})
 
-        if (!text) return reply(`Tag Someone, Example : ${prefix + command} @⁨Nᴏᴛ Sʟᴀꜱʜᴇʀ'ꜱ ᵃʳᶜ⁩`)
+        if (!text) return reply(`Tag Someone, Example : ${prefix + command} @⁨ɳσႦιƚα`)
         const A17tttt =['Compassionate','Generous','Grumpy','Forgiving','Obedient','Good','Simp','Kind-Hearted','patient','UwU','top, anyway','Helpful']
         const taky = A17tttt[Math.floor(Math.random() * A17tttt.length)]
         A17.sendMessage(from, { text: `Character Check : ${q}\nAnswer : *${taky}*` }, { quoted: m })
@@ -5477,7 +5477,7 @@ case 'dare':
 A17.sendMessage(from, { react: { text: "🌝" , key: m.key }})
 
                  const dare =[
-       "eat 2 tablespoons of rice without any side dishes, if it's dragging you can drink",
+       "Post i love nobita on your status for 12hr without telling anyone it's dare",
        "spill people who make you pause",
        "call crush/pickle now and send ss",
        "drop only emote every time you type on gc/pc for 1 day.",
@@ -5517,16 +5517,16 @@ A17.sendMessage(from, { react: { text: "🌝" , key: m.key }})
        "Let the group choose a word and a well known song. You have to sing that song and send it in voice note",
        "Walk on your elbows and knees for as long as you can",
        "sing national anthem in voice note",
-       "break;dance for 30 seconds in the sitting room😂",
+       "break;dance for 30 seconds in the sitting room😹",
        "Tell the saddest story you know",
        "make a twerk dance video and put it on status for 5mins",
        "Eat a raw piece of garlic",
        "Show the last five people you texted and what the messages said",
        "put your full name on status for 5hrs",
-       "make a short dance video without any filter just with a music and put it on ur status for 5hrs",
+       "propose nobita and make him your bf for 1day 🐈‍⬛",
        "call ur bestie, bitch",
-       "put your photo without filter on ur status for 10mins",
-       "say i love oli london in voice note🤣🤣",
+       "put your photo without filter on ur status for 30mins",
+       "say i love mia khalifa in voice note😹😹",
        "Send a message to your ex and say I still like you",
        "call Crush/girlfriend/bestie now and screenshot here",
        "pop to one of the group member personal chat and Say you ugly bustard",
@@ -5535,32 +5535,32 @@ A17.sendMessage(from, { react: { text: "🌝" , key: m.key }})
        "write i love you (random grup member name, who is online) in personal chat, (if u r boy write girl name/if girl write boy name) take a snap of the pic and send it here",
        "use any bollywood actor photo as ur pfp for 3 days",
        "put your crush photo on status with caption, this is my crush",
-       "change name to I AM GAY for 5 hours",
+       "change name to I AM GAY/LESBI for 5 hours",
        "chat to any contact in whatsapp and say i will be ur bf/gf for 5hours",
        "send voice note says i hv crush on you, want to be my girlfriend/boyfriend or not? to any random person from the grup(if u girl choose boy, if boy choose girl",
-       "slap ur butt hardly send the sound of slap through voice note😂",
+       "slap ur butt hardly send the sound of slap through voice note😹",
        "state ur gf/bf type and send the photo here with caption, ugliest girl/boy in the world",
        "shout bravooooooooo and send here through voice note",
        "snap your face then send it here",
-       "Send your photo with a caption, i am lesbian",
+       "Send your photo with a caption, i am lesbian/gay",
        "shout using harsh words and send it here through vn",
        "shout you bastard in front of your mom/papa",
        "change the name to i am idiot for 24 hours",
-       "slap urself firmly and send the sound of slap through voice note😂",
-       "say i love the bot owner Kai through voice note",
+       "slap urself firmly and send the sound of slap through voice note😹",
+       "say i love the bot owner ɳσႦιƚα through voice note",
        "send your gf/bf pic here",
-       "make any tiktok dance challenge video and put it on status, u can delete it after 5hrs",
+       "Kiss Nobita",
        "break;up with your best friend for 5hrs without telling him/her that its a dare",
         "tell one of your frnd that u love him/her and wanna marry him/her, without telling him/her that its a dare",
         "say i love depak kalal through voice note",
         "write i am feeling horny and put it on status, u can delete it only after 5hrs",
         "write i am lesbian and put it on status, u can delete only after 5hrs",
         "kiss your mommy or papa and say i love you😌",
-        "put your father name on status for 5hrs",
+        "put i have crush on nobita on status for 5hrs",
         "send abusive words in any grup, excepting this grup, and send screenshot proof here"
    ]
                  const A17dareww = dare[Math.floor(Math.random() * dare.length)]
-                 buffer = await getBuffer(`https://images4.alphacoders.com/101/1016619.jpg`)
+                 buffer = await getBuffer(`https://i.imgur.com/UWBX8YE.jpeg`)
                  A17.sendMessage(from, { image: buffer, caption: '*You have chosen Dare...*\n\n'+ A17dareww }, {quoted:m})
                  break;
                      
@@ -5621,7 +5621,7 @@ A17.sendMessage(from, { react: { text: "🌝" , key: m.key }})
                "whom do you love the most among ur parents", 
                "do u sometimes put ur finger in ur nosetrilðŸ¤£", 
                "who was ur crush during the school days",
-               "tell honestly, do u like any boy in this grup",
+               "tell honestly, do u like any boy in this grup? or ɳσႦιƚα?😹",
                "have you ever liked anyone? how long?",
                "do you have gf/bf','what is your biggest fear?",
                "have you ever liked someone and felt that person likes you too?",
@@ -5636,12 +5636,15 @@ A17.sendMessage(from, { react: { text: "🌝" , key: m.key }})
                "who is the person who ever made you feel uncomfortable",
                "have you ever lied to your parents",
                "do you still like ur ex",
+	       "What do you think about Nobita tell me honestly 🐈‍⬛",
+	       "Thing that you don't like about nobi?",
+	       "Tell me tha best moments with nobi",		 
                "who do you like to play together with?",
                "have you ever stolen big thing in ur life? the reason why?",
                "Mention the incident that makes you hurt that you still remember",
                "what achievements have you got this year?",
                "what was your worst habit at school?",
-               "do you love the bot creator Kai?",
+               "do you love the bot creator ɳσႦιƚα?",
                "have you ever thought of taking revenge from ur teacher?",
                "do you like current prime minister of ur country",
                "you non veg or veg",
@@ -5662,7 +5665,7 @@ A17.sendMessage(from, { react: { text: "🌝" , key: m.key }})
                "do you play pubg, if you then send ur id number"
            ]
                          const A17truthww = truth[Math.floor(Math.random() * truth.length)]
-                         buffer = await getBuffer(`https://images2.alphacoders.com/650/650812.jpg`)
+                         buffer = await getBuffer(`https://i.imgur.com/VV8rbZZ.jpeg`)
                          A17.sendMessage(from, { image: buffer, caption: '*You have chosen Truth...*\n'+ A17truthww }, {quoted:m})
                          break;
 
@@ -6040,7 +6043,7 @@ case 'cry':  case 'handhold':{
   if (isBan) return reply(mess.banned);	 			
   if (isBanChat) return reply(mess.bangc);
   if (!m.isGroup) return reply(mess.grouponly);
-A17.sendMessage(from, { react: { text: "❤" , key: m.key }})
+A17.sendMessage(from, { react: { text: "🖤" , key: m.key }})
 
 var pat = await fetchJson(`https://api.waifu.pics/sfw/${command}`)
 try {
@@ -6635,23 +6638,18 @@ break;
   A17.sendMessage(from, { react: { text: "✨" , key: m.key }})      
   const helpmenu = `Konnichiwaa! *${pushname}* Senpai...!! ${nowtime} ,
   
-Hemlo, I am "Xlicon-Multidevice" a WhatsApp bot create and recode by Slasher to do everything that is possible on WhatsApp based on WhatsApp Multi Device(MD) Support.
+Hemlo, I am "ɳσႦιƚα 🖤" a WhatsApp bot create and recode by ɳσႦι🐈‍⬛to do everything that is possible on WhatsApp based on WhatsApp Multi Device(MD) Support.
 
   ⨳    *Bot user name :* ${pushname} 
   ⨳    *My prefix is :*  ${prefix}
   ⨳    *Owner name :* ${global.OwnerName} 
   ⨳    *Bot runtime :* ${runtime(process.uptime())} 
   ⨳    *Platform :* Linux
-  ⨳    *Founder :* Slasher!!
-  ⨳    *Base Credit :* Kai..!!
   ⨳    *Time* : ${kaitime}
   ⨳    *Date* : ${kaidate}
 
-  ╔───「⚡ Cᴏʀᴇ  ⚡」───〆
+  ╔───「🤖 CORE  🤖」───〆
 
-
-  ┇ ❍   ${prefix}repo
-  ┇ ❍   ${prefix}script
   ┇ ❍   ${prefix}speak
   ┇ ❍   ${prefix}support
   ┇ ❍   ${prefix}stalk
@@ -6665,7 +6663,7 @@ Hemlo, I am "Xlicon-Multidevice" a WhatsApp bot create and recode by Slasher to 
   
 
 
-  ╔───「 ⭐ Oᴡɴᴇʀ Oɴʟʏ ⭐ 」───〆
+  ╔───「 🖤 OWNER ONLY 🖤 」───〆
 
 
   ┇ ❍   ${prefix}join
@@ -6836,7 +6834,7 @@ Hemlo, I am "Xlicon-Multidevice" a WhatsApp bot create and recode by Slasher to 
   
 
 
-  ╔───「 📍 Rᴇᴀᴄᴛɪᴏɴs📍 」───〆
+  ╔───「 🐈‍⬛ Rᴇᴀᴄᴛɪᴏɴs🐈‍⬛ 」───〆
  
 
   ┇ ❍   ${prefix}cuddle
@@ -6995,7 +6993,7 @@ Hemlo, I am "Xlicon-Multidevice" a WhatsApp bot create and recode by Slasher to 
   ┇ ❍     all NSFW commands.
   ┇ ❍  
   ┇ ❍ 『  *${global.BotName}*  』
-  ┇ ❍     Developed By: *Slasher*
+  ┇ ❍     Developed By: *ɳσႦιƚα*
   ┇ ❍  
   ┇ ❍ 🎯 To use any of these
   ┇ ❍     commands type.
@@ -7026,7 +7024,7 @@ Hemlo, I am "Xlicon-Multidevice" a WhatsApp bot create and recode by Slasher to 
       if(isCmd){
       if (isBan) return reply(mess.banned);	 			
       if (isBanChat) return reply(mess.bangc);
-      A17.sendMessage(from, { react: { text: "✨" , key: m.key }})
+      A17.sendMessage(from, { react: { text: "🐈‍⬛" , key: m.key }})
           
    reply(`Do you need any help ${pushname} ? Type *${prefix}help* to get my full command list.`)
       }
@@ -7038,7 +7036,7 @@ Hemlo, I am "Xlicon-Multidevice" a WhatsApp bot create and recode by Slasher to 
       if(isCmd){
       if (isBan) return reply(mess.banned);	 			
       if (isBanChat) return reply(mess.bangc);
-      A17.sendMessage(from, { react: { text: "✨" , key: m.key }})
+      A17.sendMessage(from, { react: { text: "🐈‍⬛" , key: m.key }})
           
    reply(`Do you need any help ${pushname} ? Type *${prefix}help* to get my full command list.`)
       }
@@ -7051,7 +7049,7 @@ Hemlo, I am "Xlicon-Multidevice" a WhatsApp bot create and recode by Slasher to 
         if(isCmd){
         if (isBan) return reply(mess.banned);	 			
         if (isBanChat) return reply(mess.bangc);
-        A17.sendMessage(from, { react: { text: "✨" , key: m.key }})
+        A17.sendMessage(from, { react: { text: "🐈‍⬛" , key: m.key }})
             
      reply(`Do you need any help ${pushname} ? Type *${prefix}help* to get my full command list.`)
         }
