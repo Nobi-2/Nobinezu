@@ -5361,11 +5361,11 @@ break;
 
 
 
-// case 'couple': case 'ship': {
+// case 'couple': {
 //   if (isBan) return reply(mess.banned);
 //   if (isBanChat) return reply(mess.bangc);
 // if (!m.isGroup) return reply(`${mess.grouponly}`)
-// A17.sendMessage(from, { react: { text: "🌝" , key: m.key }})
+// A17.sendMessage(from, { react: { text: "🐈‍⬛" , key: m.key }})
 
 // let member = participants.map(u => u.id)
 // let orang = member[Math.floor(Math.random() * member.length)]
@@ -5385,11 +5385,11 @@ break;
 //   if (isBan) return reply(mess.banned);
 //   if (isBanChat) return reply(mess.bangc);
 // if (!m.isGroup) return reply(`${mess.grouponly}`)
-// A17.sendMessage(from, { react: { text: "🌝" , key: m.key }})
+// A17.sendMessage(from, { react: { text: "🌚" , key: m.key }})
 // let member = participants.map(u => u.id)
 // let me = m.sender
 // let jodoh = member[Math.floor(Math.random() * member.length)]
-// let jawab = `👫 Soulmates
+// let jawab = `👫 Soulmates 
 // @${me.split('@')[0]} 🖤 @${jodoh.split('@')[0]}`
 // let ments = [me, jodoh]
 // let buttons = [
@@ -5399,13 +5399,31 @@ break;
 // }
 // break;
 
+  case 'couple': {		    
+  if (isBan) return reply(mess.banned);
+  if (isBanChat) return reply(mess.bangc);
+ if (!m.isGroup) return reply(`${mess.grouponly}`)
+A17.sendMessage(from, { react: { text: "🐈‍⬛" , key: m.key }})
+
+let member = participants.map(u => u.id)
+let orang = member[Math.floor(Math.random() * member.length)]
+let jodoh = member[Math.floor(Math.random() * member.length)]
+let jawab = `@${orang.split('@')[0]} 🖤 @${jodoh.split('@')[0]}
+Ohh i see 👀🐈‍⬛...`
+let menst = [orang, jodoh]
+let buttons = [
+ { buttonId: '🖤', buttonText: { displayText: 'Congratulations 🖤' }, type: 1 }
+]
+await A17.sendButtonText(m.chat, buttons, jawab, A17.user.name, m, {mentions: menst})
+ }
+ break;
 
 case 'soulmate':  {
 
   if (isBan) return reply(mess.banned);
   if (isBanChat) return reply(mess.bangc);
   if (!m.isGroup) return reply(`${mess.grouponly}`);
-  A17.sendMessage(from, { react: { text: "🌝", key: m.key } });
+  A17.sendMessage(from, { react: { text: "🌚", key: m.key } });
 
   let member = participants.map(u => u.id);
   let me = m.sender;
@@ -5477,7 +5495,7 @@ A17.sendMessage(from, { react: { text: "🤧" , key: m.key }})
 case 'dare':
   if (isBan) return reply(mess.banned);
   if (isBanChat) return reply(mess.bangc);
-A17.sendMessage(from, { react: { text: "🌝" , key: m.key }})
+A17.sendMessage(from, { react: { text: "👀" , key: m.key }})
 
                  const dare =[
        "Post i love nobita on your status for 12hr without telling anyone it's dare",
@@ -5513,8 +5531,8 @@ A17.sendMessage(from, { react: { text: "🌝" , key: m.key }})
        "ss recent call whatsapp",
        "Say *YOU ARE SO BEAUTIFUL DON'T LIE* to guys!",
        "pop to a group member, and say fuck you",
-       "Act like a chicken in front of ur parents",
-       "Pick up a random book and read one page out loud in vn n send it here",
+       "Act like a chicken in front of ur friends",
+       "Pick up a random book and read one paragraph out loud in vn n send it here",
        "Open your front door and howl like a wolf for 10 seconds",
        "Take an embarrassing selfie and paste it on your profile picture",
        "Let the group choose a word and a well known song. You have to sing that song and send it in voice note",
@@ -5535,7 +5553,7 @@ A17.sendMessage(from, { react: { text: "🌝" , key: m.key }})
        "pop to one of the group member personal chat and Say you ugly bustard",
        "say YOU ARE BEAUTIFUL/HANDSOME to one of person who is in top of ur pinlist or the first person on ur chatlist",
        "send voice notes and say, can i call u baby, if u r boy tag girl/if girl tag boy",
-       "write i love you (random grup member name, who is online) in personal chat, (if u r boy write girl name/if girl write boy name) take a snap of the pic and send it here",
+       "write i love you (to random grup member , who is online) in his/her dm,  take a SS of the conversation and send it here",
        "use any bollywood actor photo as ur pfp for 3 days",
        "put your crush photo on status with caption, this is my crush",
        "change name to I AM GAY/LESBI for 5 hours",
@@ -5554,13 +5572,13 @@ A17.sendMessage(from, { react: { text: "🌝" , key: m.key }})
        "send your gf/bf pic here",
        "Kiss Nobita",
        "break;up with your best friend for 5hrs without telling him/her that its a dare",
-        "tell one of your frnd that u love him/her and wanna marry him/her, without telling him/her that its a dare",
-        "say i love depak kalal through voice note",
-        "write i am feeling horny and put it on status, u can delete it only after 5hrs",
-        "write i am lesbian and put it on status, u can delete only after 5hrs",
-        "kiss your mommy or papa and say i love you😌",
-        "put i have crush on nobita on status for 5hrs",
-        "send abusive words in any grup, excepting this grup, and send screenshot proof here"
+       "tell one of your frnd that u love him/her and wanna marry him/her, without telling him/her that its a dare",
+       "say i love depak kalal through voice note",
+       "write i am feeling horny and put it on status, u can delete it only after 5hrs",
+       "write i am lesbian and put it on status, u can delete only after 5hrs",
+       "kiss your mommy or papa and say i love you😌",
+       "put i have crush on nobita on status for 5hrs",
+       "send abusive words in any grup, excepting this grup, and send screenshot proof here"
    ]
                  const A17dareww = dare[Math.floor(Math.random() * dare.length)]
                  buffer = await getBuffer(`https://i.imgur.com/UWBX8YE.jpeg`)
