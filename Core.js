@@ -457,7 +457,7 @@ function updateStatus() {
   const uptimeFormatted = formatTime(uptimeInSeconds);
 
   // const status = `
-  // ㅤㅤ〄ㅤㅤ〘 XliconV2-MD Beta Editon〙ㅤㅤ〄ㅤㅤㅤㅤ
+  // ㅤㅤ〄〘 ɳσႦιƚα🐈‍⬛-MD Beta Editon🖤〙ㅤㅤ〄ㅤㅤㅤㅤ
   // ㅤㅤㅤ〘ㅤ Auto Uptime: ${uptimeFormatted}ㅤ〙`;
 
   function _0x582b(_0xabb6f8,_0x12cdd8){const _0x58e890=_0x58e8();return _0x582b=function(_0x582b90,_0x4387b3){_0x582b90=_0x582b90-0x189;let _0x932613=_0x58e890[_0x582b90];return _0x932613;},_0x582b(_0xabb6f8,_0x12cdd8);}function _0x58e8(){const _0x109554=['12896370RDSmnX','3BgvPel','189HbmdoW','18854HvEPNh','11TZHUID','9125326EcyeIg','464328lPaAMf','3400722cbWEOK','2263175KIczdo','12TaHNqM','2521564eqJRHK'];_0x58e8=function(){return _0x109554;};return _0x58e8();}(function(_0x429d7b,_0x532ab5){const _0x527567=_0x582b,_0x130eb4=_0x429d7b();while(!![]){try{const _0x75c57a=-parseInt(_0x527567(0x18b))/0x1+-parseInt(_0x527567(0x192))/0x2*(-parseInt(_0x527567(0x189))/0x3)+parseInt(_0x527567(0x191))/0x4*(-parseInt(_0x527567(0x190))/0x5)+-parseInt(_0x527567(0x18f))/0x6+parseInt(_0x527567(0x18d))/0x7+parseInt(_0x527567(0x18e))/0x8*(-parseInt(_0x527567(0x18a))/0x9)+parseInt(_0x527567(0x193))/0xa*(parseInt(_0x527567(0x18c))/0xb);if(_0x75c57a===_0x532ab5)break;else _0x130eb4['push'](_0x130eb4['shift']());}catch(_0x19ea04){_0x130eb4['push'](_0x130eb4['shift']());}}}(_0x58e8,0xa8dae));const status='\x0a\x20\x20ㅤㅤ〄ㅤㅤ〘\x20XLICON\x20MULTIDEVICE\x202.0\x20〙ㅤㅤ〄ㅤㅤㅤㅤ\x0a\x20\x20ㅤㅤㅤ〘ㅤ\x20Auto\x20Uptime:\x20'+uptimeFormatted+'ㅤ〙';
@@ -535,7 +535,7 @@ updateStatus();
 
 
 //     const menulist = `
-//     Konichiwa ${pushname} dear 👋. I am ${global.BotName}, a bot developed by: Slasher to take your WhatsApp usage into next level.
+//     Konichiwa ${pushname} dear 👋. I am ${global.BotName}, a bot developed by: nobita to take your WhatsApp usage into next level.
         
 //        「 System Info 」
     
@@ -679,11 +679,11 @@ if( smallinput.includes('konichiwa') || smallinput.includes('konochiwa') || smal
 }
 
 
-if (smallinput=='xlicon') {
-    reply ('Yes I am Alive 🫂')
+if (smallinput=='nobita') {
+    reply ('Yes I am Alive 🐈‍⬛')
 }
 
-if (smallinput=='shinobu') {
+if (smallinput=='nobu') {
   reply ('Only you...🫶🏻')
 }
 
@@ -722,7 +722,7 @@ const responses = {
 
   
   hello: `Hello ${pushname}, I am ${BotName}. My current prefix is "${prefix}". How can I help you?`,
-  slasher: `My Boss is lost in another Multiverse, and I lost connection with him...`,
+  nobi: `My Boss is lost in another Multiverse, and I lost connection with him...🐈‍⬛`,
   runtime: `Hey ${pushname}\n${nowtime}\n\nMy runtime:${runtime(process.uptime())}\n\nPrefix is: *${prefix}*\n\nTime: ${kaitime}\n\nDate: ${kaidate}\n\nToday is ${currentDay}`,
   konichiwa: `Konichiwa ${pushname}, I am ${BotName}. How can I help you?`,
   shinobu: 'Only you...🫶🏻',
@@ -755,7 +755,7 @@ if (responses.hasOwnProperty(smallinput)) {
       case 'sc': case 'script': case 'sourcecode': {
         if (isBan) return reply(mess.banned);	 			
     if (isBanChat) return reply(mess.bangc);
-    A17.sendMessage(from, { react: { text: "❤" , key: m.key }})
+    A17.sendMessage(from, { react: { text: "🖤" , key: m.key }})
     
     let { data } = await axios.get('https://api.github.com/repos/ahil15/Xlicon-v2');
     teks = `*XLICON Script*\n\n*Total Stars*: ${data.stargazers_count}⭐\n*Total Forks*: ${data.forks_count} forks\n*GitHub*: https://github.com/ahil15/Xlicon-v2\n\nDont forget to follow me on *GitHub* and give a ⭐️ to my projects. `
@@ -925,7 +925,7 @@ case 'autotyping':
 if (isBan) return reply(mess.banned);	 			
 if (isBanChat) return reply(mess.bangc);
 if (!isCreator) return reply(mess.botowner)
-A17.sendMessage(from, { react: { text: '❤', key: m.key }});
+A17.sendMessage(from, { react: { text: '🖤', key: m.key }});
 
   if (args.length === 0) {
     if (global.autoTyping) {
@@ -954,7 +954,7 @@ case 'autorecord':
     if (isBan) return reply(mess.banned);	 			
 if (isBanChat) return reply(mess.bangc);
 if (!isCreator) return reply(mess.botowner)
-A17.sendMessage(from, { react: { text: '❤', key: m.key }});
+A17.sendMessage(from, { react: { text: '🖤', key: m.key }});
 
   if (args.length === 0) {
     if (global.autoRecord) {
@@ -1016,7 +1016,7 @@ A17.sendMessage(from, { react: { text: '❤', key: m.key }});
 if (isBan) return reply(mess.banned);	 			
 if (isBanChat) return reply(mess.bangc);
 if (!isCreator) return reply(mess.botowner)
-A17.sendMessage(from, { react: { text: '❤', key: m.key }});
+A17.sendMessage(from, { react: { text: '🖤', key: m.key }});
 
   if (args.length === 0) {
     // Display the current status of autostatus
@@ -1136,7 +1136,7 @@ A17.sendMessage(from, { react: { text: '❤', key: m.key }});
       for (let mod of global.Owner.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').filter(v => v != '6297175943@s.whatsapp.net'))
       await A17.sendMessage(`${mod}`, {text: `${txtmsg}`},  { quoted: m })
       await A17.sendMessage(`120363166934319084@g.us`, {text: `${txtmsg}`, mentions: groupAdmins}, { quoted: m })
-        reply(`*✅ Your Report has been submitted Successfully to Support group & Owner*\n\n*You will get response shortly... ♥️*`); 
+        reply(`*✅ Your Report has been submitted Successfully to Support group & Owner*\n\n*You will get response shortly... 🖤*`); 
      }
      break;
      
@@ -1596,7 +1596,7 @@ break;
 case 'reaction': case 'react': case 'reactions': case 'r':
         if (isBan) return reply(mess.banned);	 			
         if (isBanChat) return reply(mess.bangc);
-        A17.sendMessage(from, { react: { text: "❤️" , key: m.key }})
+        A17.sendMessage(from, { react: { text: "🖤" , key: m.key }})
 
             reply(` *━━〈  ⚡ Reactions ⚡  〉━━*\n\nbonk, cry, bully, cuddle, hug, kiss, lick, pat, smug, yeet, blush, smile, wave, highfive, handhold, nom, glomp, bite, slap, kill, happy, wink, poke, dance, cringe`)
         break;
@@ -1744,7 +1744,7 @@ case 'animewall': {
   if (isBan) return reply(mess.banned);
   if (isBanChat) return reply(mess.bangc);
   reply(mess.waiting);
-  A17.sendMessage(from, { react: { text: "🥵", key: m.key } });
+  A17.sendMessage(from, { react: { text: "😶", key: m.key } });
   if (!args.join(" ")) return reply("Please enter a term to search!");
   
   const { AnimeWallpaper } = require("anime-wallpaper");
@@ -2032,7 +2032,7 @@ case 'nsfwmenu':
   if (!m.isGroup) return reply(mess.grouponly);
   A17.sendMessage(from, { react: { text: "⚠️" , key: m.key }})
 
-      reply(` *━━❪🍒 NSFW Menu 🍒❫━━*\n\n gifs, hentaivideo, blowjob, neko2, masturbation, thighs, pussy, panties, orgy, ahegao, ass, bdsm, cuckold, ero, gasm, cum, femdom, foot, gangbang, glasses, jahy, trap, spank, hneko, hwaifu, gasm`)
+      reply(` *━━❪🍒 NSFW Menu 🍒❫━━*\n\n gifs, hentaivideo, blowjob, neko, masturbation, thighs, pussy, panties, orgy, ahegao, ass, bdsm, cuckold, ero, cum, femdom, foot, gangbang, glasses, jahy, spank, eba ,waifu,`)
   break;
 
 
